@@ -31,7 +31,7 @@ public class ShipmentProjectApplication implements CommandLineRunner {
 		double totalOrder = orderService.total(order);
 
 		System.out.println("Código do pedido : " + order.getCode() +
-				"\n" + "Valor total: R$ " + totalOrder);
+				"\n" + "Valor total do pedido : R$ " + totalOrder);
 	}
 
 }
